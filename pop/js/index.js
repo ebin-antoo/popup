@@ -19,9 +19,10 @@ $(function() {
       suppressScrollX: true
     });
 
-    $('div#services').perfectScrollbar({
+    $('div#services, div#looking').perfectScrollbar({
       suppressScrollY: true,
-      maxScrollbarLength: 50
+      maxScrollbarLength: 50,
+      wheelPropagation: true
     });
 
 $('#tabs').tabs({
@@ -32,7 +33,7 @@ $('#tabs').tabs({
         		$(".top-about").show();	   
         	});
         }
-        else if(activeTabId == 1){
+        else if(activeTabId == 1,2){
         	$( ".top-about" ).fadeOut( "slow", function() {
     			$(".top-my-services").show();
   			});

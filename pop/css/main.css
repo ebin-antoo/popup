@@ -385,3 +385,14 @@ button.mfp-close, button.mfp-arrow{
   border-left: 24px solid transparent;
   border-right: 0px solid transparent;
 }
+
+
+/*no-2*/
+.post-item__quote.no-2 {
+  margin-left: 285px;
+}
+
+/*no-3*/
+.post-item__quote.no-3 {
+	margin-left: 610px;
+}
