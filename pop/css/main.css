@@ -396,3 +396,13 @@ button.mfp-close, button.mfp-arrow{
 .post-item__quote.no-3 {
 	margin-left: 610px;
 }
+
+div#photos>span{
+	display: inline-block;
+	margin-right: 17em;
+}
+
+div#photos>span>img {
+  height: 219px;
+  width: 215px;
+}

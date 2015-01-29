@@ -25,6 +25,12 @@ $(function() {
       wheelPropagation: true
     });
 
+    $('div#photos').perfectScrollbar({
+      suppressScrollY: true,
+      maxScrollbarLength: 50,
+      wheelPropagation: true
+    });
+
 $('#tabs').tabs({
     activate: function (event, ui) {
         var activeTabId = $(this).tabs('option', 'active');
